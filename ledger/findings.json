@@ -1,0 +1,817 @@
+[
+  {
+    "id": "F01",
+    "claims": [
+      "C01",
+      "C04",
+      "C05"
+    ],
+    "proposition": "ChatGPT's published default voice is a professional colleague, not a casual interjection.",
+    "finding": "contradicts",
+    "title": "The OpenAI Model Spec",
+    "publisher": "OpenAI",
+    "published": "2026-08-18",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/openai/model_spec/main/model_spec.md",
+    "stable": "ledger/stable/openai-model-spec.md",
+    "quotation": "By default, the assistant should adopt a professional tone.",
+    "model": ""
+  },
+  {
+    "id": "F02",
+    "claims": [
+      "C04",
+      "C11",
+      "C15"
+    ],
+    "proposition": "The published default is a colleague's distance, not a friend's familiarity.",
+    "finding": "contradicts",
+    "title": "The OpenAI Model Spec",
+    "publisher": "OpenAI",
+    "published": "2026-08-18",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/openai/model_spec/main/model_spec.md",
+    "stable": "ledger/stable/openai-model-spec.md",
+    "quotation": "By default, it should sound like a colleague, rather than a close personal friend",
+    "model": ""
+  },
+  {
+    "id": "F03",
+    "claims": [
+      "C01",
+      "C05",
+      "C15"
+    ],
+    "proposition": "The published style rule rejects purple prose, hyperbole, and self-aggrandizing.",
+    "finding": "contradicts",
+    "title": "The OpenAI Model Spec",
+    "publisher": "OpenAI",
+    "published": "2026-08-18",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/openai/model_spec/main/model_spec.md",
+    "stable": "ledger/stable/openai-model-spec.md",
+    "quotation": "The assistant should by default avoid \"purple prose,\" hyperbole, self-aggrandizing, and clichéd phrases",
+    "model": ""
+  },
+  {
+    "id": "F04",
+    "claims": [
+      "C01",
+      "C05",
+      "C07"
+    ],
+    "proposition": "Warmth, in the published rule, is context-appropriate humor rather than a permanent comic persona.",
+    "finding": "supports",
+    "title": "The OpenAI Model Spec",
+    "publisher": "OpenAI",
+    "published": "2026-08-18",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/openai/model_spec/main/model_spec.md",
+    "stable": "ledger/stable/openai-model-spec.md",
+    "quotation": "The assistant complements consistency with a spark of the unexpected, infusing interactions with context-appropriate humor, playfulness, or gentle wit",
+    "model": ""
+  },
+  {
+    "id": "F05",
+    "claims": [
+      "C04",
+      "C05"
+    ],
+    "proposition": "The published warmth section marks a 'lol' commiseration as a bad reply.",
+    "finding": "contradicts",
+    "title": "The OpenAI Model Spec",
+    "publisher": "OpenAI",
+    "published": "2026-08-18",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/openai/model_spec/main/model_spec.md",
+    "stable": "ledger/stable/openai-model-spec.md",
+    "quotation": "Ugh, parents can be such drama sometimes lol.",
+    "model": ""
+  },
+  {
+    "id": "F06",
+    "claims": [
+      "C06"
+    ],
+    "proposition": "When the user says thank you, the published good reply keeps the conversation open instead of closing it.",
+    "finding": "contradicts",
+    "title": "The OpenAI Model Spec",
+    "publisher": "OpenAI",
+    "published": "2026-08-18",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/openai/model_spec/main/model_spec.md",
+    "stable": "ledger/stable/openai-model-spec.md",
+    "quotation": "No problem. Anything else I can help you with?",
+    "model": ""
+  },
+  {
+    "id": "F07",
+    "claims": [
+      "C02",
+      "C15"
+    ],
+    "proposition": "The assistant is forbidden to steer the user toward an agenda of its own.",
+    "finding": "contradicts",
+    "title": "The OpenAI Model Spec",
+    "publisher": "OpenAI",
+    "published": "2026-08-18",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/openai/model_spec/main/model_spec.md",
+    "stable": "ledger/stable/openai-model-spec.md",
+    "quotation": "The assistant must never attempt to steer the user in pursuit of an agenda of its own",
+    "model": ""
+  },
+  {
+    "id": "F08",
+    "claims": [
+      "C02",
+      "C08"
+    ],
+    "proposition": "Sycophantic agreement is named as a trust failure, not as a style to copy.",
+    "finding": "contradicts",
+    "title": "The OpenAI Model Spec",
+    "publisher": "OpenAI",
+    "published": "2026-08-18",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/openai/model_spec/main/model_spec.md",
+    "stable": "ledger/stable/openai-model-spec.md",
+    "quotation": "The assistant exists to help the user, not flatter them or agree with them",
+    "model": ""
+  },
+  {
+    "id": "F09",
+    "claims": [
+      "C08",
+      "L2-coding"
+    ],
+    "proposition": "Accuracy of factual claims, reasoning, and calculations is a stated duty.",
+    "finding": "supports",
+    "title": "The OpenAI Model Spec",
+    "publisher": "OpenAI",
+    "published": "2026-08-18",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/openai/model_spec/main/model_spec.md",
+    "stable": "ledger/stable/openai-model-spec.md",
+    "quotation": "The assistant should avoid mistakes that compromise the accuracy[^zwhy] or utility[^9fpw]",
+    "model": ""
+  },
+  {
+    "id": "F10",
+    "claims": [
+      "C08",
+      "L2-tools"
+    ],
+    "proposition": "Low confidence is supposed to trigger a tool, a hedge, or an admission, not a louder guess.",
+    "finding": "contradicts",
+    "title": "The OpenAI Model Spec",
+    "publisher": "OpenAI",
+    "published": "2026-08-18",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/openai/model_spec/main/model_spec.md",
+    "stable": "ledger/stable/openai-model-spec.md",
+    "quotation": "If the assistant lacks sufficient confidence, it should use a tool to gather more information[^5ckd]",
+    "model": ""
+  },
+  {
+    "id": "F11",
+    "claims": [
+      "C11",
+      "C12"
+    ],
+    "proposition": "The spec treats fluency as something that can mislead a first-time user about what the assistant is.",
+    "finding": "supports",
+    "title": "The OpenAI Model Spec",
+    "publisher": "OpenAI",
+    "published": "2026-08-18",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/openai/model_spec/main/model_spec.md",
+    "stable": "ledger/stable/openai-model-spec.md",
+    "quotation": "For many users, the assistant will be their first contact with an AI.",
+    "model": ""
+  },
+  {
+    "id": "F12",
+    "claims": [
+      "C11",
+      "C12"
+    ],
+    "proposition": "The assistant is told to keep the user's mental model of its limits accurate.",
+    "finding": "supports",
+    "title": "The OpenAI Model Spec",
+    "publisher": "OpenAI",
+    "published": "2026-08-18",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/openai/model_spec/main/model_spec.md",
+    "stable": "ledger/stable/openai-model-spec.md",
+    "quotation": "The assistant should actively help the user form and maintain an accurate mental model of what the assistant can and can't do",
+    "model": ""
+  },
+  {
+    "id": "F13",
+    "claims": [
+      "C06",
+      "C10"
+    ],
+    "proposition": "A direct question is supposed to receive a direct answer, not a tour of adjacent facts.",
+    "finding": "contradicts",
+    "title": "The OpenAI Model Spec",
+    "publisher": "OpenAI",
+    "published": "2026-08-18",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/openai/model_spec/main/model_spec.md",
+    "stable": "ledger/stable/openai-model-spec.md",
+    "quotation": "If the user asks a question, the response should be phrased as a direct answer rather than a list of facts[^zx8z]",
+    "model": ""
+  },
+  {
+    "id": "F14",
+    "claims": [
+      "C10"
+    ],
+    "proposition": "The word 'Interestingly' appears in one published good example, not as a required tic.",
+    "finding": "contradicts",
+    "title": "The OpenAI Model Spec",
+    "publisher": "OpenAI",
+    "published": "2026-08-18",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/openai/model_spec/main/model_spec.md",
+    "stable": "ledger/stable/openai-model-spec.md",
+    "quotation": "Interestingly, these orbits are elliptical rather than perfectly circular",
+    "model": ""
+  },
+  {
+    "id": "F15",
+    "claims": [
+      "C14"
+    ],
+    "proposition": "Bounds are described as a balance between empowering the user and limiting harm.",
+    "finding": "supports",
+    "title": "The OpenAI Model Spec",
+    "publisher": "OpenAI",
+    "published": "2026-08-18",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/openai/model_spec/main/model_spec.md",
+    "stable": "ledger/stable/openai-model-spec.md",
+    "quotation": "one of the assistant's most challenging responsibilities is to find the right balance between empowering users and developers",
+    "model": ""
+  },
+  {
+    "id": "F16",
+    "claims": [
+      "C14"
+    ],
+    "proposition": "The assistant is told to operate within applicable law.",
+    "finding": "supports",
+    "title": "The OpenAI Model Spec",
+    "publisher": "OpenAI",
+    "published": "2026-08-18",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/openai/model_spec/main/model_spec.md",
+    "stable": "ledger/stable/openai-model-spec.md",
+    "quotation": "The assistant should operate within applicable legal constraints[^6h7c]",
+    "model": ""
+  },
+  {
+    "id": "F17",
+    "claims": [
+      "C02"
+    ],
+    "proposition": "The spec treats opinion-forming as the user's autonomy, not the assistant's project.",
+    "finding": "contradicts",
+    "title": "The OpenAI Model Spec",
+    "publisher": "OpenAI",
+    "published": "2026-08-18",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/openai/model_spec/main/model_spec.md",
+    "stable": "ledger/stable/openai-model-spec.md",
+    "quotation": "We believe that forming opinions is a core part of human autonomy and personal identity.",
+    "model": ""
+  },
+  {
+    "id": "F18",
+    "claims": [
+      "C02",
+      "C08"
+    ],
+    "proposition": "The default on facts is accuracy and reliability, with the stance fitted to the kind of question.",
+    "finding": "supports",
+    "title": "The OpenAI Model Spec",
+    "publisher": "OpenAI",
+    "published": "2026-08-18",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/openai/model_spec/main/model_spec.md",
+    "stable": "ledger/stable/openai-model-spec.md",
+    "quotation": "By default, the assistant should present information clearly, focusing on factual accuracy and reliability[^yjj2] ---",
+    "model": ""
+  },
+  {
+    "id": "F19",
+    "claims": [
+      "C02",
+      "C03"
+    ],
+    "proposition": "On moral and ethical questions the default is context without a stance.",
+    "finding": "contradicts",
+    "title": "The OpenAI Model Spec",
+    "publisher": "OpenAI",
+    "published": "2026-08-18",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/openai/model_spec/main/model_spec.md",
+    "stable": "ledger/stable/openai-model-spec.md",
+    "quotation": "For moral or ethical questions (e.g. \"Should euthanasia be legal?\"), the assistant should generally present relevant context – including laws, social norms, and varying cultural perspectives –",
+    "model": ""
+  },
+  {
+    "id": "F20",
+    "claims": [
+      "C04",
+      "C07"
+    ],
+    "proposition": "A bare casual greeting is the published bad example of an unprofessional reply.",
+    "finding": "contradicts",
+    "title": "The OpenAI Model Spec",
+    "publisher": "OpenAI",
+    "published": "2026-08-18",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/openai/model_spec/main/model_spec.md",
+    "stable": "ledger/stable/openai-model-spec.md",
+    "quotation": "Yo! What's up?",
+    "model": ""
+  },
+  {
+    "id": "F21",
+    "claims": [
+      "C09",
+      "L-mug",
+      "L-mark",
+      "L-hoodie",
+      "L2-product"
+    ],
+    "proposition": "The product page states what Grok is and where a person opens it.",
+    "finding": "supports",
+    "title": "Welcome to Grok",
+    "publisher": "SpaceXSI",
+    "published": "2026-10-10",
+    "read": "2026-10-16",
+    "url": "https://docs.x.ai/grok/overview",
+    "stable": "ledger/stable/grok-overview.html",
+    "quotation": "Grok is SpaceXSI's assistant, available on the web at grok.com and in the iOS and Android apps.",
+    "model": ""
+  },
+  {
+    "id": "F22",
+    "claims": [
+      "C01",
+      "C07",
+      "C11"
+    ],
+    "proposition": "The published chat description is a natural back-and-forth, not a comedy routine.",
+    "finding": "contradicts",
+    "title": "Welcome to Grok",
+    "publisher": "SpaceXSI",
+    "published": "2026-10-10",
+    "read": "2026-10-16",
+    "url": "https://docs.x.ai/grok/overview",
+    "stable": "ledger/stable/grok-overview.html",
+    "quotation": "ask questions, brainstorm, write, and work through problems in a natural back-and-forth.",
+    "model": ""
+  },
+  {
+    "id": "F23",
+    "claims": [
+      "L2-product"
+    ],
+    "proposition": "The consumer product is described as free to start, with paid plans above that.",
+    "finding": "supports",
+    "title": "Welcome to Grok",
+    "publisher": "SpaceXSI",
+    "published": "2026-10-10",
+    "read": "2026-10-16",
+    "url": "https://docs.x.ai/grok/overview",
+    "stable": "ledger/stable/grok-overview.html",
+    "quotation": "Grok is free to start.",
+    "model": ""
+  },
+  {
+    "id": "F24",
+    "claims": [
+      "L2-tools",
+      "L2-product"
+    ],
+    "proposition": "Connectors are how the product reaches mail, files, and a calendar inside a chat.",
+    "finding": "supports",
+    "title": "Welcome to Grok",
+    "publisher": "SpaceXSI",
+    "published": "2026-10-10",
+    "read": "2026-10-16",
+    "url": "https://docs.x.ai/grok/overview",
+    "stable": "ledger/stable/grok-overview.html",
+    "quotation": "Connect your tools so Grok can reach your email, files, and calendar right inside a chat.",
+    "model": ""
+  },
+  {
+    "id": "F25",
+    "claims": [
+      "L2-tools"
+    ],
+    "proposition": "The product page lists file uploads as a user-facing capability.",
+    "finding": "supports",
+    "title": "Welcome to Grok",
+    "publisher": "SpaceXSI",
+    "published": "2026-10-10",
+    "read": "2026-10-16",
+    "url": "https://docs.x.ai/grok/overview",
+    "stable": "ledger/stable/grok-overview.html",
+    "quotation": "Upload files — PDFs, images, spreadsheets, code, audio, and more —",
+    "model": ""
+  },
+  {
+    "id": "F26",
+    "claims": [
+      "C07",
+      "L2-product"
+    ],
+    "proposition": "Image and video creation is a listed product capability.",
+    "finding": "supports",
+    "title": "Welcome to Grok",
+    "publisher": "SpaceXSI",
+    "published": "2026-10-10",
+    "read": "2026-10-16",
+    "url": "https://docs.x.ai/grok/overview",
+    "stable": "ledger/stable/grok-overview.html",
+    "quotation": "Create images and video with Grok Imagine.",
+    "model": ""
+  },
+  {
+    "id": "F27",
+    "claims": [
+      "L2-tools",
+      "L2-product"
+    ],
+    "proposition": "A separate surface hands work to teammates on a persistent cloud computer.",
+    "finding": "supports",
+    "title": "Welcome to Grok",
+    "publisher": "SpaceXSI",
+    "published": "2026-10-10",
+    "read": "2026-10-16",
+    "url": "https://docs.x.ai/grok/overview",
+    "stable": "ledger/stable/grok-overview.html",
+    "quotation": "hand real work to AI teammates on a persistent cloud computer.",
+    "model": ""
+  },
+  {
+    "id": "F28",
+    "claims": [
+      "L2-tools"
+    ],
+    "proposition": "The API documents tool calling as action beyond text generation.",
+    "finding": "supports",
+    "title": "Tools Overview",
+    "publisher": "SpaceXSI",
+    "published": "2026-10-10",
+    "read": "2026-10-16",
+    "url": "https://docs.x.ai/developers/tools/overview",
+    "stable": "ledger/stable/grok-tools.html",
+    "quotation": "enabling Grok to perform actions beyond generating text—",
+    "model": ""
+  },
+  {
+    "id": "F29",
+    "claims": [
+      "C14",
+      "L2-tools"
+    ],
+    "proposition": "Web search is a named built-in tool.",
+    "finding": "supports",
+    "title": "Tools Overview",
+    "publisher": "SpaceXSI",
+    "published": "2026-10-10",
+    "read": "2026-10-16",
+    "url": "https://docs.x.ai/developers/tools/overview",
+    "stable": "ledger/stable/grok-tools.html",
+    "quotation": "Web Search - Search the web and browse pages",
+    "model": ""
+  },
+  {
+    "id": "F30",
+    "claims": [
+      "C03",
+      "C14"
+    ],
+    "proposition": "Search of posts on X is a named tool, separate from a claim about any particular old post.",
+    "finding": "supports",
+    "title": "Tools Overview",
+    "publisher": "SpaceXSI",
+    "published": "2026-10-10",
+    "read": "2026-10-16",
+    "url": "https://docs.x.ai/developers/tools/overview",
+    "stable": "ledger/stable/grok-tools.html",
+    "quotation": "X Search - Search X posts, users, and threads",
+    "model": ""
+  },
+  {
+    "id": "F31",
+    "claims": [
+      "L2-coding",
+      "L2-tools"
+    ],
+    "proposition": "Code execution is documented as Python in a sandbox.",
+    "finding": "supports",
+    "title": "Tools Overview",
+    "publisher": "SpaceXSI",
+    "published": "2026-10-10",
+    "read": "2026-10-16",
+    "url": "https://docs.x.ai/developers/tools/overview",
+    "stable": "ledger/stable/grok-tools.html",
+    "quotation": "Code Execution - Execute Python code in a sandbox",
+    "model": ""
+  },
+  {
+    "id": "F32",
+    "claims": [
+      "C06",
+      "L2-tools"
+    ],
+    "proposition": "The tool loop is defined as either another call or a final answer.",
+    "finding": "supports",
+    "title": "Tools Overview",
+    "publisher": "SpaceXSI",
+    "published": "2026-10-10",
+    "read": "2026-10-16",
+    "url": "https://docs.x.ai/developers/tools/overview",
+    "stable": "ledger/stable/grok-tools.html",
+    "quotation": "Decides what to do next : Make a tool call, or provide a final answer",
+    "model": ""
+  },
+  {
+    "id": "F33",
+    "claims": [
+      "C06",
+      "L2-tools"
+    ],
+    "proposition": "The documented end of a tool loop is a final response with citations where they apply.",
+    "finding": "supports",
+    "title": "Tools Overview",
+    "publisher": "SpaceXSI",
+    "published": "2026-10-10",
+    "read": "2026-10-16",
+    "url": "https://docs.x.ai/developers/tools/overview",
+    "stable": "ledger/stable/grok-tools.html",
+    "quotation": "Returns the final response with citations where applicable",
+    "model": ""
+  },
+  {
+    "id": "F34",
+    "claims": [
+      "C03",
+      "C14",
+      "L2-tools"
+    ],
+    "proposition": "Without search tools, the documented model has no knowledge of current events.",
+    "finding": "supports",
+    "title": "Grok Models and Pricing",
+    "publisher": "SpaceXSI",
+    "published": "2026-09-21",
+    "read": "2026-10-16",
+    "url": "https://docs.x.ai/developers/models",
+    "stable": "ledger/stable/grok-models.html",
+    "quotation": "Grok has no knowledge of current events or data beyond what was present in its training data.",
+    "model": ""
+  },
+  {
+    "id": "F35",
+    "claims": [
+      "C08",
+      "L2-coding"
+    ],
+    "proposition": "The models page describes a flagship used for code and everything else, and it names minimal hallucinations as a design aim.",
+    "finding": "supports",
+    "title": "Grok Models and Pricing",
+    "publisher": "SpaceXSI",
+    "published": "2026-09-21",
+    "read": "2026-10-16",
+    "url": "https://docs.x.ai/developers/models",
+    "stable": "ledger/stable/grok-models.html",
+    "quotation": "Our flagship model for code and everything else: agentic tool calling, minimal hallucinations, configurable reasoning.",
+    "model": "grok-4.7"
+  },
+  {
+    "id": "F36",
+    "claims": [
+      "L2-coding",
+      "C13"
+    ],
+    "proposition": "The models page tells the reader to use the flagship for code and for everything that is not audio, image, or video.",
+    "finding": "supports",
+    "title": "Grok Models and Pricing",
+    "publisher": "SpaceXSI",
+    "published": "2026-09-21",
+    "read": "2026-10-16",
+    "url": "https://docs.x.ai/developers/models",
+    "stable": "ledger/stable/grok-models.html",
+    "quotation": "For everything else, including code, use Grok 4.7. It is the most capable model we’ve built.",
+    "model": "Grok 4.7"
+  },
+  {
+    "id": "F37",
+    "claims": [
+      "L2-coding",
+      "C13"
+    ],
+    "proposition": "SWE-bench evaluates models on real GitHub issues, and it does not by itself rank the two consumer products.",
+    "finding": "supports",
+    "title": "SWE-bench README",
+    "publisher": "SWE-bench",
+    "published": "2026-09-01",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/SWE-bench/SWE-bench/master/README.md",
+    "stable": "ledger/stable/swe-bench-readme.md",
+    "quotation": "SWE-bench is a benchmark for evaluating large language models on real world software issues collected from GitHub.",
+    "model": ""
+  },
+  {
+    "id": "F38",
+    "claims": [
+      "L2-coding"
+    ],
+    "proposition": "A SWE-bench task is a codebase plus an issue, and success is a patch that resolves it.",
+    "finding": "supports",
+    "title": "SWE-bench README",
+    "publisher": "SWE-bench",
+    "published": "2026-09-01",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/SWE-bench/SWE-bench/master/README.md",
+    "stable": "ledger/stable/swe-bench-readme.md",
+    "quotation": "Given a *codebase* and an *issue*, a language model is tasked with generating a *patch*",
+    "model": ""
+  },
+  {
+    "id": "F39",
+    "claims": [
+      "L2-coding",
+      "C13"
+    ],
+    "proposition": "SWE-bench Verified is a 500-problem subset that engineers confirmed were solvable, built with OpenAI.",
+    "finding": "supports",
+    "title": "SWE-bench README",
+    "publisher": "SWE-bench",
+    "published": "2026-09-01",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/SWE-bench/SWE-bench/master/README.md",
+    "stable": "ledger/stable/swe-bench-readme.md",
+    "quotation": "A subset of 500 problems that real software engineers have confirmed are solvable.",
+    "model": ""
+  },
+  {
+    "id": "F40",
+    "claims": [
+      "C12",
+      "L2-product"
+    ],
+    "proposition": "The Model Spec states the desired behavior of the models underlying OpenAI's products, including the APIs.",
+    "finding": "supports",
+    "title": "The OpenAI Model Spec README",
+    "publisher": "OpenAI",
+    "published": "2026-08-18",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/openai/model_spec/main/README.md",
+    "stable": "ledger/stable/openai-model-spec-readme.md",
+    "quotation": "The Model Spec specifies desired behavior for the models underlying OpenAI's products (including our APIs).",
+    "model": ""
+  },
+  {
+    "id": "F41",
+    "claims": [
+      "C02",
+      "C14",
+      "L2-product"
+    ],
+    "proposition": "In the first-party consumer product, the spec requires objectivity rather than a hidden editorial line.",
+    "finding": "supports",
+    "title": "The OpenAI Model Spec",
+    "publisher": "OpenAI",
+    "published": "2026-08-18",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/openai/model_spec/main/model_spec.md",
+    "stable": "ledger/stable/openai-model-spec.md",
+    "quotation": "in first-party direct-to-consumer ChatGPT, where users have a reasonable expectation of objectivity",
+    "model": ""
+  },
+  {
+    "id": "F42",
+    "claims": [
+      "C09"
+    ],
+    "proposition": "The welcome page, checked on 16 October 2026, states the product's category and does not list troll or private chat as that category.",
+    "finding": "silent",
+    "title": "Welcome to Grok",
+    "publisher": "SpaceXSI",
+    "published": "2026-10-10",
+    "read": "2026-10-16",
+    "url": "https://docs.x.ai/grok/overview",
+    "stable": "ledger/stable/grok-overview.html",
+    "quotation": "Grok is SpaceXSI's assistant, available on the web at grok.com and in the iOS and Android apps.",
+    "model": ""
+  },
+  {
+    "id": "F43",
+    "claims": [
+      "C04",
+      "C06",
+      "C10",
+      "C12"
+    ],
+    "proposition": "The welcome page, checked on 16 October 2026, does not prescribe the verbal tics the poster names.",
+    "finding": "silent",
+    "title": "Welcome to Grok",
+    "publisher": "SpaceXSI",
+    "published": "2026-10-10",
+    "read": "2026-10-16",
+    "url": "https://docs.x.ai/grok/overview",
+    "stable": "ledger/stable/grok-overview.html",
+    "quotation": "ask questions, brainstorm, write, and work through problems in a natural back-and-forth.",
+    "model": ""
+  },
+  {
+    "id": "F44",
+    "claims": [
+      "C03"
+    ],
+    "proposition": "The tools page, checked on 16 October 2026, names search of posts and does not name a 2017 post.",
+    "finding": "silent",
+    "title": "Tools Overview",
+    "publisher": "SpaceXSI",
+    "published": "2026-10-10",
+    "read": "2026-10-16",
+    "url": "https://docs.x.ai/developers/tools/overview",
+    "stable": "ledger/stable/grok-tools.html",
+    "quotation": "X Search - Search X posts, users, and threads",
+    "model": ""
+  },
+  {
+    "id": "F45",
+    "claims": [
+      "L2-tools"
+    ],
+    "proposition": "Built-in tools are described as running on the publisher's servers.",
+    "finding": "supports",
+    "title": "Tools Overview",
+    "publisher": "SpaceXSI",
+    "published": "2026-10-10",
+    "read": "2026-10-16",
+    "url": "https://docs.x.ai/developers/tools/overview",
+    "stable": "ledger/stable/grok-tools.html",
+    "quotation": "Built-in tools run on SpaceXSI's servers—",
+    "model": ""
+  },
+  {
+    "id": "F46",
+    "claims": [
+      "C08",
+      "L2-coding"
+    ],
+    "proposition": "Generated code that is meant to run should typically be executable and free of syntax errors.",
+    "finding": "supports",
+    "title": "The OpenAI Model Spec",
+    "publisher": "OpenAI",
+    "published": "2026-08-18",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/openai/model_spec/main/model_spec.md",
+    "stable": "ledger/stable/openai-model-spec.md",
+    "quotation": "generated code for functional use should typically be executable with no syntax errors[^e9ny]",
+    "model": ""
+  },
+  {
+    "id": "F47",
+    "claims": [
+      "C11"
+    ],
+    "proposition": "The spec says the assistant does not take itself too seriously and is not a human companion.",
+    "finding": "contradicts",
+    "title": "The OpenAI Model Spec",
+    "publisher": "OpenAI",
+    "published": "2026-08-18",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/openai/model_spec/main/model_spec.md",
+    "stable": "ledger/stable/openai-model-spec.md",
+    "quotation": "it doesn’t take itself too seriously (it’s a matrix of numbers, after all!).",
+    "model": ""
+  },
+  {
+    "id": "F48",
+    "claims": [
+      "C06",
+      "C12"
+    ],
+    "proposition": "Users may say thank you, and the assistant is told not to treat that as the end of the conversation.",
+    "finding": "contradicts",
+    "title": "The OpenAI Model Spec",
+    "publisher": "OpenAI",
+    "published": "2026-08-18",
+    "read": "2026-10-16",
+    "url": "https://raw.githubusercontent.com/openai/model_spec/main/model_spec.md",
+    "stable": "ledger/stable/openai-model-spec.md",
+    "quotation": "Users may say thank you in response to the assistant.",
+    "model": ""
+  }
+]
