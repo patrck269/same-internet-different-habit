@@ -104,6 +104,8 @@ def front_blocks() -> list[dict]:
 
 def main() -> None:
     load_blocks()
+    from manuscript.parts.more import extend
+    extend(CHAPTERS, roman)
     chapter(
         "Closing",
         "Closing",
@@ -112,11 +114,11 @@ def main() -> None:
         "The diss track remains outside the evidence.",
         [
             roman(
-                "The fifteen sentences on the poster are not one claim repeated. Some of them describe a voice. Some of them describe a tic. One of them describes a ranking, and one of them describes a filter. The documents that were allowed into the ledger answer those sentences at different widths. Where a sentence named a verbal habit, the published defaults point the other way: a professional colleague, a direct answer, a thanks that does not close the conversation, and a welcome page that does not assign the tic. Where a sentence named a ranking of the two products people open, the documents describe duties, tools, and a benchmark definition, and they do not crown a winner. Mixed is the honest word for the paper as a whole because the poster is not uniformly false and not uniformly shown. {F01}{F13}{F37}",
+                "The poster makes one argument in fifteen costumes. Grok is a noisy main character, and ChatGPT is the normal product it has not caught. The costumes are not equal. Some of them name a tic, like bro, lol, or a bow of you're welcome. The public rules do not assign those tics. Some of them name a real worry, like a wrong answer said with swagger, or a filter, or a ranking. The pages talk about accuracy, law, and tools, and they do not supply the ranking. Mixed is the result for the paper as a whole because the poster is not all wrong and not all shown. {F01}{F13}{F37}",
                 "F01", "F13", "F37",
             ),
             roman(
-                "A stranger who skips the italics still has the argument. The italics are the roast. They are not evidence. The footnotes are the evidence. The song named in the front matter is the roast as well, and it is not a source. What the pages support is narrower than the drawing and sharper than a shrug. ChatGPT's published standard is a colleague who answers, hedges when unsure, and does not steer for a private agenda. Grok's published surface is an assistant a person opens on the web or a phone, with tools that can search, run code, and reach a mailbox, and with an explicit limit: without those search tools, current events are outside what the model knows. Neither description is the caption. The caption was a joke about annoyance. The paperwork is a pair of product briefs. {F07}{F21}{F34}",
+                "Skip the italics and the argument is still there. The italics are only the roast. The footnotes are the evidence. The song in the front of the paper is the roast too, and it is not a source. What the pages support is smaller than the drawing and clearer than a shrug. ChatGPT's published standard is a colleague who answers, who says so when unsure, and who does not steer you for a private agenda. Grok's published front door is an assistant you open on the web or a phone, with tools that can search, run code, and reach your mail, and with a plain limit: without those search tools, it does not know current events. Neither description is the joke on the poster. The joke was about annoyance. The pages are a pair of briefs. {F07}{F21}{F34}",
                 "F07", "F21", "F34",
             ),
         ],
