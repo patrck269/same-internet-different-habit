@@ -1,0 +1,29 @@
+Same Internet — Suno feed sheet
+
+Use Suno Advanced mode, also called Custom. Choose model v6.
+Paste only the blocks marked below. Paste the lyrics from diss/lyrics.txt
+between its PASTE BELOW and END PASTE markers. Do not paste the warning line.
+
+--- TITLE PASTE ---
+Same Internet
+--- END TITLE PASTE ---
+
+--- STYLE PASTE ---
+hard rap diss, aggressive, about 96 BPM, punchy drums, deep 808, a sparse minor loop, one male rap vocal, clear diction, a dry close mic, a short shouted hook
+--- END STYLE PASTE ---
+
+--- EXCLUDE PASTE ---
+a sung pop chorus, a second singer, choir, acoustic guitar, an EDM drop
+--- END EXCLUDE PASTE ---
+
+Steps:
+1. Open Suno Create.
+2. Switch to Advanced mode (also called Custom).
+3. Choose model v6.
+4. Paste the title block into the title field.
+5. Paste the style block into the Style box.
+6. Paste the exclude block into the Exclude box.
+7. Paste the lyrics block into the Lyrics box.
+8. Generate several takes.
+9. Keep the take where the hook is easy to hear.
+10. If a take runs past three and a half minutes, cut verse 2 in half and generate again.
